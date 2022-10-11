@@ -10,7 +10,6 @@ const myQuestions = [
       },
       correctAnswer: "alerts",
     },
-  
     {
       question:
         "The condition in an if/else statement is enclosed within ________.",
