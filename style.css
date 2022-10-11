@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0px;
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 23px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 40px;
+  text-align: center;
+}
+
+P {
+  text-align: center;
+}
+
+.quiz {
+  text-align: center;
+  font-size: 23px;
+  padding: 55px;
+  background-color: lightskyblue;
+}
+
+#answers {
+  text-align: center;
+  color: rgb(21, 126, 230);
+}
+
+#submit {
+  border-radius: 6px;
+  text-align: center;
+  background-color: rgb(10, 30, 202);
+  color: hsl(0, 0%, 100%);
+}
+
+ul li:hover {
+  background-color: rgb(201, 168, 244);
+}
+
+li.active {
+  background-color: blueviolet;
+}
+
+form {
+  display: block;
+  margin: 30px auto;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 23vw;
+  background-color: #c89ed6;
+  border-radius: 11px;
+  padding: 20px;
+  line-height: 2;
+}
+
+.btn {
+  border: none;
+  background-color:rgb(175, 8, 111);
+  border-radius: 11px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 25px 11px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 43%;
+}
+
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
